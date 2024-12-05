@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+        
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+#logobook{
+    padding-left: 420px;
+}
+#cabecalho{
+    background-color: black;
+    display: flex;
+    
+}
+#icone1{
+    padding-top: 75px;
+    padding-left: 350px;
+}
+body{
+    background-color: black;
+}
+#icone2{
+    padding-left: 20px;
+    padding-top: 80px;
+}
+#hr1{
+   border-color: rgb(0, 119, 255);
+   height: 3px;
+   background-color:  rgb(97, 132, 172);
+}
+
+#linha-2{
+    display: flex;
+    padding-top: 80px;
+}
+#vestido-2{
+    padding-left: 50px;
+    
+}
+#vestido-1{
+    padding-left: 260px;
+}
+#vsd1{
+    border-radius: 50px;
+  
+}
+#vsd2{
+    border-radius: 50px;
+  
+}
+#logo-15{
+    padding-left: 20px;
+}
+#linha-3{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+#ft1{
+    border-radius: 50px;
+}
+
+#linha-4{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+
+#linha-5{
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-around;
+}
+#text{
+    color: white;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+#rodape{
+    background-color: rgb(36, 36, 36);
+    height: 200px;
+
+}
+#coroa1{
+    padding-left: 70px;
+    padding-top: 60px;
+}
+
+
+
+@media (max-width: 460px){
+
+    #vestido-1{
+        padding-left: 50px;
+    }
+
+
+    #linha-2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px, 0px, 10px, 0px;
+    }
+
+    #linha-3{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px, 0px, 10px, 0px;
+    }
+
+    #linha-4{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px, 0px, 10px, 0px;
+    }
+
+    #linha-5{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px, 0px, 10px, 0px;
+    }
+    
+}
